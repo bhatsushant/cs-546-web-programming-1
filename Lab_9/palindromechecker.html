@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Palindrome Checker</h1>
+        </header>
+        <form method="post" id="userForm">
+            <div class="input-wrapper">
+                <label for="phrase" class="item"> Enter Phrase:</label>
+                <textarea name="phrase" id="phrase" cols="30" rows="1" class="item"
+                    placeholder="Enter phrase..."></textarea>
+                <button type="submit" class="button">Submit</button>
+            </div>
+        </form>
+        <p class="error-message" id="error-message"></p>
+        <ol id="attempts"></ol>
+        <div class="push"></div>
+    </div>
+    <div id="footer">
+        <footer>Sushant Bhat | 10474365 | Web Enthusiast</footer>
+    </div>
+    <script src="public/js/palindrome.js"></script>
+</body>
+
+</html>

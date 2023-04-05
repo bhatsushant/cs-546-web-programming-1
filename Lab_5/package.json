@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-5",
+  "version": "1.0.0",
+  "description": "CS 546 Lab 5",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Sushant Bhat 10474365",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "express": "^4.17.1"
+  }
+}

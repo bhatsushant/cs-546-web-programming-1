@@ -1,0 +1,28 @@
+<main>
+    <div class="login-box">
+        <h1>Sign-up</h1>
+        <form method="POST" action="/signup" id="signup-form">
+            <div class="user-box">
+                <input id="username" type="text" name="username" placeholder="username">
+                <label for="username">Username</label>
+            </div>
+            <div class="user-box">
+                <input id="password" type="password" name="password" placeholder="password">
+                <label for="password">Password</label>
+            </div>
+            <button type="submit">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Sign-up
+            </button>
+        </form>
+        {{#if hasErrors}}
+        <p class="error">{{error}}</p>
+        {{/if}}
+        <div class="link">
+            <a href="/">Already have an account? Click here to log-in</a>
+        </div>
+    </div>
+</main>

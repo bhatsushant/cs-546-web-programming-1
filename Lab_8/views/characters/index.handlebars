@@ -1,0 +1,15 @@
+<h1>
+    {{title}}
+</h1>
+<main>
+    <p class="para">This is a website which stores information about various characters in the Marvel Universe. We can
+        search through
+        this data for specific characters using the search bar provided on this website. This will in turn display the
+        top 20 matching results and we can then click on one of those to display information about that character.</p>
+    <form action="/search" method="post">
+        <label for="searchChar"> Search Character :
+            <input type="text" name="searchTerm" placeholder="Search Character" id="searchChar">
+        </label>
+        <input type="submit" value="Submit">
+    </form>
+</main>

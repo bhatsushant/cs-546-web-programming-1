@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+    background-color: #EEEEEE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    padding: 4px;
+    outline: 5px inset #1976D2;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #4DB6AC;
+}
+
+span {
+    color: purple;
+}
+
+h2 {
+    font-family: cursive;
+    color: royalblue;
+}
+
+ul {
+    background-color: #E0E0E0;
+}
+
+li {
+    padding: 4px;
+    border-radius: 4px;
+    margin: 4px;
+}

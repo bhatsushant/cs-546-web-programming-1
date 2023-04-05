@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    height: 100%;
+    font-size: 16px;
+    background-color: #EEEEEE;
+    font-family: cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.is-palindrome {
+    color: #0000FF;
+}
+
+.not-palindrome {
+    color: #FF0000;
+}
+
+.error-message {
+    padding: 4px;
+    outline: 5px inset #ba000d;
+}
+
+h1 {
+    padding: 15px;
+    color: teal;
+}
+
+form {
+    margin: 15px;
+}
+
+ol {
+    background-color:whitesmoke;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+li {
+    padding: 4px;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+textarea {
+    border-radius: 6px;
+    height: 30px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    margin: 1em;
+}
+
+.button {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: 500;
+  height: 2rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 0 2.6rem;
+  }
+}
+
+#footer {
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    /* height:60px;   */
+}

@@ -1,0 +1,23 @@
+{
+  "name": "cs-546-lab-10",
+  "version": "1.0.0",
+  "description": "CS546 Lab 10",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Sushant Bhat 10474365",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "mongodb": "^4.2.0",
+    "nodemon": "^2.0.15"
+  }
+}

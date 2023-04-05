@@ -1,0 +1,12 @@
+<h1 class="heading1">
+    {{title}}
+</h1>
+<h2>Results for <span class="heading2">{{searchTerm}}</span></h2>
+<main>
+    <ul class="list">
+        {{#each charsList}}
+        <li class="list-items"><a href="/characters/{{id}}">{{name}}</a></li>
+        {{/each}}
+    </ul>
+    <a href="/">Make another search</a>
+</main>
